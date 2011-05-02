@@ -1,0 +1,57 @@
+div.galeria {
+    position:relative;
+    display:block;
+    float:left;
+    height:140px;
+    width:140px;
+    text-align:center;
+    line-height:120px;
+    background-color:#eee;
+    margin:10px;
+    overflow:hidden;
+}
+
+div.galeria a {
+    display:block;
+    height:140px;
+    width:140px;
+}
+
+div.galeria:hover {
+    background-color:#ddd;
+}
+
+div.galeria img {
+    vertical-align:middle;
+}
+
+div.galeria p {
+    position:relative;
+    bottom:62px;
+}
+
+div.galeria input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:20px;
+    height:20px;
+    z-index:2;
+}
+
+table.galeria {
+    margin:20px auto;
+}
+
+/*
+td.qnType {
+    display:none;
+    background-color:#ccc;
+    height;200px;
+    overflow:scroll;
+}
+*/
+
+img.galeria_thumb {
+    width:100px;
+}
